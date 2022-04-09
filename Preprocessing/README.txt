@@ -1,3 +1,5 @@
+# Preprocessing:
+
 Our preprocessing was done exclusively in MATLAB.
 
 Our dataset was sourced from Kaggle: https://www.kaggle.com/c/dogs-vs-cats/data however we only used the labeled train data (12,500 cats and 12,500 dogs). 
