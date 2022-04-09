@@ -9,3 +9,5 @@ Initially, we loaded our Kaggle data into Matlab with the load_data_200_by_200.m
 We found it easier to load into Python if we had four matrices: cat train images, cat test images, dog train images and dog test images. We used split_80_20.m on our DATA.mat file to create our 80_20_DATA.mat file which we used in Python for our models.
 
 For our CNN models, we required our scaled 200 x 200 x 3 images to be in folders so we loaded 80_20_DATA.mat into Matlab and ran GET_TO_FOLDERS.m in order to create the folders seen here: https://drive.google.com/drive/folders/1CyKaRINviJZZMCzP2rhxHOAZBRELGAnD?usp=sharing
+
+Both DATA.mat and 80_20_DATA.mat are too large to fit into Github. View them here: https://drive.google.com/file/d/1kFXx0PxBmngZD7PB3uEN7eARHuNpyucP/view?usp=sharing & https://drive.google.com/file/d/19ebWEScLLC6JZ5j2cTXr83FQE1UFN_1W/view?usp=sharing
