@@ -23,6 +23,12 @@ loadImages(pathCat, 0, 1)
 pathDog = "./YOUR_PATH_HERE>/cats_and_dogs_filtered/validation/dogs/"
 loadImages(pathDog, 20, 21)
 ```
+Additionally, remove this section if you are not running on Google Colab but instead on your local Jupyter Lab:
+
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
 
 ### Expected Output
 
